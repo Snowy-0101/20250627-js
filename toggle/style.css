@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+    color: #333;
+    margin: 0;
+}
+
+header h1{
+    margin: 0;
+    padding: 20px 25px;
+    color: #fff;
+    background: #ea4875;
+    font-weight: bold;
+}
+
+/* 開閉ボタン */
+button {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* ハンバーガーアイコン */
+button:focus {
+    outline: none;
+}
+
+button img {
+    width: 40px;
+}
+
+/* メニュー */
+ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 17px 25px;
+    color: #fff;
+    background: #B94B6A;
+    border-bottom: 1px solid #A24861;
+}
+
+li:last-child a {
+    border-bottom: none;
+}
+
+main {
+    /* display: block; */
+    padding: 40px 20px 20px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 50px;
+    line-height: 2em;
+}
